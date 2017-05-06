@@ -1,0 +1,12 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "maxFuel" : 1000,
+      "crewSize" : 2
+    }
+  },
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "shipstructorT0apex.png"
+}

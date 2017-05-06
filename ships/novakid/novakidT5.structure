@@ -1,0 +1,12 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 6
+    }
+  },
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "shipstructorT5apex.png"
+}

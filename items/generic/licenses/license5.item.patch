@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/description",
+    "value": "Condor Class Identification & License for a master Captian , S.A.I.L Is automatically configured to allow more Crew Members to be hired"
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "Condor License"
+  }
+]

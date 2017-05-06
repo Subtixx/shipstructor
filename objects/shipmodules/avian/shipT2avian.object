@@ -1,0 +1,30 @@
+{
+
+  "objectName" : "shipT2avian",
+  "colonyTags" : ["avian"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "An Avian ship Tier 2, Not for interstellar travel",
+  "shortdescription" : "Avian Ship T2",
+  "race" : "avian",
+
+  "apexDescription" : "This ship can store lots of cargo, miniknog aproves.",
+  "avianDescription" : "TBA",
+  "floranDescription" : "TBA",
+  "glitchDescription" : "TBA",
+  "humanDescription" : "TBA",
+  "hylotlDescription" : "TBA",
+  "novakidDescription" : "TBA",
+
+  "inventoryIcon" : "shipT0avianicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "shipT2avian.png:<color>" } ],
+      "renderLayer" : "Object-5",
+
+      "imagePosition" : [-120, -16],
+      "frames" : 1,
+      "animationCycle" : 1.0
+	}
+  ]
+}

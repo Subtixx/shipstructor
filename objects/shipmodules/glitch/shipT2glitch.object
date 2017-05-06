@@ -1,0 +1,30 @@
+{
+
+  "objectName" : "shipT2glitch",
+  "colonyTags" : ["Ggitch"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "An Glitch ship Tier 2, Not for interstellar travel",
+  "shortdescription" : "Glitch Ship T2",
+  "race" : "glitch",
+
+  "apexDescription" : "This ship can store lots of cargo, miniknog aproves.",
+  "avianDescription" : "TBA",
+  "floranDescription" : "TBA",
+  "glitchDescription" : "TBA",
+  "humanDescription" : "TBA",
+  "hylotlDescription" : "TBA",
+  "novakidDescription" : "TBA",
+
+  "inventoryIcon" : "shipT0glitchicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "shipT2glitch.png:<color>" } ],
+      "renderLayer" : "Object-5",
+
+      "imagePosition" : [-112, -16],
+      "frames" : 1,
+      "animationCycle" : 1.0
+	}
+  ]
+}

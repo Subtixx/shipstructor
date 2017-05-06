@@ -1,0 +1,14 @@
+[
+  {
+    "op": "add",
+    "path": "/offeredQuests",
+    "value": [
+      "shipengineering"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/turnInQuests/1",
+    "value": "shipengineering"
+  }
+]

@@ -1,0 +1,30 @@
+{
+
+  "objectName" : "shipT0floran",
+  "colonyTags" : ["floran"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "An Floran ship Tier 0, Not for interstellar travel",
+  "shortdescription" : "Floran Ship T0",
+  "race" : "floran",
+
+  "apexDescription" : "This ship can store lots of cargo, miniknog aproves.",
+  "avianDescription" : "TBA",
+  "floranDescription" : "TBA",
+  "glitchDescription" : "TBA",
+  "humanDescription" : "TBA",
+  "hylotlDescription" : "TBA",
+  "novakidDescription" : "TBA",
+
+  "inventoryIcon" : "shipT0floranicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "shipT0floran.png:<color>" } ],
+      "renderLayer" : "Object-5",
+
+      "imagePosition" : [-104, -48],
+      "frames" : 1,
+      "animationCycle" : 1.0
+	}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+
+  "objectName" : "shipT2human",
+  "colonyTags" : ["human"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "An Human ship Tier 2, Not for interstellar travel",
+  "shortdescription" : "Human Ship T2",
+  "race" : "human",
+
+  "apexDescription" : "This ship can store lots of cargo, miniknog aproves.",
+  "avianDescription" : "TBA",
+  "floranDescription" : "TBA",
+  "glitchDescription" : "TBA",
+  "humanDescription" : "TBA",
+  "hylotlDescription" : "TBA",
+  "novakidDescription" : "TBA",
+
+  "inventoryIcon" : "shipT0humanicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "shipT2human.png:<color>" } ],
+      "renderLayer" : "Object-5",
+
+      "imagePosition" : [-96, -32],
+      "frames" : 1,
+      "animationCycle" : 1.0
+	}
+  ]
+}
