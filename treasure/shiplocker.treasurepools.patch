@@ -1,6 +1,5 @@
 [
 // Debug Items ~
-  { "op": "add", "path": "/starterTreasure/0/1/fill/-", "value": { "item": [ "shipT3", 1 ] } },
   { "op": "add", "path": "/starterTreasure/0/1/fill/-", "value": { "item": [ "shipnanitesT3apex", 1 ] } },
   { "op": "add", "path": "/starterTreasure/0/1/fill/-", "value": { "item": [ "shipnanitesT3avian", 1 ] } },
   { "op": "add", "path": "/starterTreasure/0/1/fill/-", "value": { "item": [ "shipnanitesT3floran", 1 ] } },

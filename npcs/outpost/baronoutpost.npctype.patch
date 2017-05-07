@@ -1,0 +1,10 @@
+[{
+"op" : "add",
+"path" : "/scriptConfig/offeredQuests/-",
+"value" : "os_scanner"
+},
+{
+"op" : "add",
+"path" : "/scriptConfig/turnInQuests/-",
+"value" : "os_scanner"
+}]

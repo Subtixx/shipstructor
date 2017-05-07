@@ -1,0 +1,24 @@
+[ 
+   {
+   "op": "replace",
+   "path": "/scriptConfig/shipUpgrade/shipLevel",
+   "value": 3
+   },
+   {
+   "op" : "add",
+   "path" : "/scriptConfig/setUniverseFlags",
+   "value" : ["outpost_optionalstory"]
+   },
+   {
+     "op" : "add",
+   "path" : "/scriptConfig/outpostBookmark",
+   "value" : {
+            "type" : "teleport",
+            "name" : "Outpost - The Ark",
+            "planetName" : "",
+            "icon" : "outpost",
+            "targetWorld" : "instanceworld:outpost",
+            "spawnTarget" : "arkteleporter"
+          }
+   } 
+]

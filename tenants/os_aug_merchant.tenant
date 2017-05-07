@@ -1,0 +1,27 @@
+{
+  "name": "os_aug_merchant",
+  "priority": 4,
+
+  "colonyTagCriteria": {
+  	"light": 1,
+    "science": 5,
+    "storage": 4,
+    "commerce": 4,
+    "door": 1
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "human",
+      "type": "outpostaugmentmerchant",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "merchantGift"
+  }
+}
