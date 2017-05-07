@@ -1,8 +1,8 @@
 {
   "id" : "shipengineering",
   "title" : "^green;Ship Modifications",
-  "text" : "Ship modifications are impossible without this. ^green;Visit Penguin Pete^reset; with ^orange;an Upgrade Module^reset; to enable engineer mode.",
-  "completionText" : "I'll upgrade yer ship now. I'm sure yer'll be pleased with the level of craftsmanship.",
+  "text" : "Ship modifications are impossible without this. ^green;Visit Penguin Pete^reset; with ^orange;your Engineers Licence^reset; to enable S.A.I.L.'s engineer mode.",
+  "completionText" : "I'll upgrade yer ship now. I'm sure yer'll be pleased To build yer' own ship.",
   "completionCinema" : "/cinematics/upgrading/shipupgrade.cinematic",
   "moneyRange" : [0, 0],
   "rewards" : [ ],
@@ -18,18 +18,18 @@
         "title" : "Penguin Pete"
       }
     },
-    "upgradeShip" : { "shipLevel" : 4 },
+    "upgradeShip" : { "shipLevel" : 10 },
     "requireTurnIn" : true,
-    "turnInDescription" : "Deliver ^orange;Upgrade Module^reset; to ^orange;Penguin Pete^reset; at the ^orange;outpost^reset;.",
+    "turnInDescription" : "Show ^orange;Engineers Licence^reset; to ^orange;Penguin Pete^reset; at the ^orange;outpost^reset;.",
     
     "conditions" : [
       {
         "type" : "shipLevel",
-        "level" : 3
+        "level" : 1
       },
       {
         "type" : "gatherItem",
-        "itemName" : "upgrademodule",
+        "itemName" : "engineerslicense",
         "count" : 1,
         "consume" : true,
         "description" : "Find ^orange;<itemName>^reset;: ^green;<current> / <required>^reset;"

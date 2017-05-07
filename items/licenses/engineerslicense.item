@@ -7,5 +7,5 @@
   "shortdescription" : "Engineers License",
 
   "pickupQuestTemplates" : ["engineerslicense"],
-  "consumeOnPickup" : true
+  "consumeOnPickup" : false
 }

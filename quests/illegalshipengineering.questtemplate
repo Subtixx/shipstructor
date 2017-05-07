@@ -1,8 +1,8 @@
 {
-  "id" : "shipupgrade4",
-  "title" : "^green;Eagle Ship Upgrade",
-  "text" : "Eight crew members! Congratulations - you now qualify for the Eagle License! ^green;Visit Penguin Pete^reset; with ^orange;8 Upgrade Modules^reset; to upgrade your ship.",
-  "completionText" : "Yer lucky there's so much space in space! Yer ship'll have room to spare after this upgrade.",
+  "id" : "illegalengineerslicense",
+  "title" : "^green;Ship Modifications",
+  "text" : "Ship modifications are impossible without this. ^green;Visit Penguin Pete^reset; with ^orange;your Engineers Licence^reset; to enable S.A.I.L.'s engineer mode.",
+  "completionText" : "I'll upgrade yer ship now. I'm sure yer'll be pleased To build yer' own ship.",
   "completionCinema" : "/cinematics/upgrading/shipupgrade.cinematic",
   "moneyRange" : [0, 0],
   "rewards" : [ ],
@@ -18,15 +18,19 @@
         "title" : "Penguin Pete"
       }
     },
-    "upgradeShip" : { "shipLevel" : 8 },
+    "upgradeShip" : { "shipLevel" : 10 },
     "requireTurnIn" : true,
-    "turnInDescription" : "Deliver ^orange;Upgrade Modules^reset; to ^orange;Penguin Pete^reset; at the ^orange;outpost^reset;.",
+    "turnInDescription" : "Show ^orange;Engineers Licence^reset; to ^orange;Penguin Pete^reset; at the ^orange;outpost^reset;.",
     
     "conditions" : [
       {
+        "type" : "shipLevel",
+        "level" : 1
+      },
+      {
         "type" : "gatherItem",
-        "itemName" : "upgrademodule",
-        "count" : 8,
+        "itemName" : "illegalengineerslicense",
+        "count" : 1,
         "consume" : true,
         "description" : "Find ^orange;<itemName>^reset;: ^green;<current> / <required>^reset;"
       }

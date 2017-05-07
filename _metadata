@@ -2,7 +2,7 @@
   "author" : "Royal~Jelly",
   "description" : "***Disclaimer: Installing Shipstructor is a one-way trip.***",
   "friendlyName" : "Shipstructor",
-  "includes" : ["modules-in-a-box","optionalStory"],
+  "includes" : ["modules-in-a-box"],
   "link" : "",
   "name" : "shipstructor",
   "requires" : ["modules-in-a-box"],
