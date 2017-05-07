@@ -1,0 +1,11 @@
+{
+  "itemName" : "engineerslicense",
+  "rarity" : "Legendary",
+  "category" : "shipLicense",
+  "inventoryIcon" : "engineerslicense.png",
+  "description" : "Qualifies the bearer to enter SAIL's shipbuilding mode.",
+  "shortdescription" : "Engineers License",
+
+  "pickupQuestTemplates" : ["engineerslicense"],
+  "consumeOnPickup" : true
+}
