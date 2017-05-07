@@ -10,5 +10,17 @@
     "op": "add",
     "path": "/turnInQuests/1",
     "value": "shipengineering"
+  },
+  {
+    "op": "add",
+    "path": "/offeredQuests",
+    "value": [
+      "illegalshipengineering"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/turnInQuests/1",
+    "value": "illegalshipengineering"
   }
 ]
