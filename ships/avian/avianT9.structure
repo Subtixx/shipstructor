@@ -7,6 +7,6 @@
     }
   },
 
-  "blockKey" : "blockKey.config:blockKey",
-  "blockImage" : "shipstructorT9apex.png"
+  "blockKey" : "avianblockKey.config:blockKey",
+  "blockImage" : "shipstructorT9avian.png"
 }
