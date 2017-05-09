@@ -2,16 +2,16 @@
 {
   "materialId" : 42067,
   "materialName" : "shiphullbarrier",
-  "shortdescription" : "Spaceship Hull Barrier",
+  "shortdescription" : "Industrusctable Ship Hull",
   "description" : "Someone's been creative, are you making a ship perhaps?.",
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
-  "health" : 1,
+  "health" : -1,
   "category": "materials",
 
-  "renderTemplate" : "/tiles/shiptrimtemplate.config",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "shiphullbarrier.png",
-    "variants" : 3,
+    "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : false,
