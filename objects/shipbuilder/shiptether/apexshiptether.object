@@ -1,0 +1,47 @@
+{
+  "objectName" : "apexshiptether",
+  "colonyTags" : ["storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "race" : "apex",
+  "health" : 1000,
+
+  "description" : "HAZARD WARNING: If you spawned this in via admin mode you may not be able to break it.",
+  "shortdescription" : "Apex Ship Tether",
+
+  "apexDescription" : "A hi-tech ship tether. It looks you can swap your ship here.",
+  "avianDescription" : "A Ship tether, looks like it stores star ships.",
+  "floranDescription" : "Sspecial shiny ssship tether.",
+  "glitchDescription" : "Exited. Ship tether's can store whole ships.",
+  "humanDescription" : "Who made this? What do it do?",
+  "hylotlDescription" : "There is amazing technology built into the ship itself.",
+  "novakidDescription" : "Ooh, I bet you can get a train here.",
+
+  "inventoryIcon" : "apexshiptether_icon.png",
+  "orientations" : [
+	{
+		"dualImage" : "apexshiptether.png:<color>.<key>",
+		"imagePosition" : [-16, 0],
+		"spaceScan" : 0.1,
+		"anchors" : [ "background" ]
+	}
+  ],
+
+  "openSounds" : [ "/sfx/objects/gunchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/gunchest_close.ogg" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/chests/shiptether.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+
+// MIAB SETTINGS
+  "miab_breakStuff" : false,
+  "miab_dumpJSON" : true,
+  "miab_fixed_area_to_scan_bounding_box" : [1000, 1000, 1100, 1100],
+  "miab_fixed_area_to_ignore_during_scan_bounding_box" : [1020, 1024, 1027, 1033]
+
+}
