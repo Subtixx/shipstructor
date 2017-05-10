@@ -24,7 +24,7 @@
 
   {
     "op": "add",
-    "path": "/orientations/0/health",
+    "path": "/health",
     "value": 1000
   }
 ]
