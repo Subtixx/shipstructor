@@ -1,5 +1,5 @@
 {
-  "materialId" : 42343,
+  "materialId" : 65001,
   "materialName" : "shipwindow",
   "particleColor" : [237, 254, 255, 255],
   "itemDrop" : "shipwindow",
