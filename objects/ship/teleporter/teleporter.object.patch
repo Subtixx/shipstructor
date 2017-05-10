@@ -7,12 +7,6 @@
 
   {
     "op": "replace",
-    "path": "/orientations/0/anchors/0",
-    "value": "background"
-  },
-
-  {
-    "op": "replace",
     "path": "/orientations/0/collision",
     "value": "platform"
   },  
@@ -21,5 +15,16 @@
     "op": "add",
     "path": "/orientations/0/renderLayer",
     "value": "Object-5"
+  },
+
+  {
+    "op": "remove",
+    "path": "/orientations/0/anchors"
+  },
+
+  {
+    "op": "add",
+    "path": "/orientations/0/health",
+    "value": 1000
   }
 ]

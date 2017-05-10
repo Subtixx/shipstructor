@@ -6,9 +6,14 @@
   },
 
   {
-    "op": "replace",
-    "path": "/orientations/0/anchors/0",
-    "value": "background"
+    "op": "remove",
+    "path": "/orientations/0/anchors"
+  },
+
+  {
+    "op": "add",
+    "path": "/orientations/0/health",
+    "value": 1000
   },
 
   {
