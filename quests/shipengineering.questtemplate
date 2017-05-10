@@ -24,10 +24,6 @@
     
     "conditions" : [
       {
-        "type" : "shipLevel",
-        "level" : 1
-      },
-      {
         "type" : "gatherItem",
         "itemName" : "engineerslicense",
         "count" : 1,

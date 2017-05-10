@@ -4,7 +4,6 @@
     "path": "/interactData/items/-",
     "value": {
       "item": "illegalengineerslicense",
-      "prerequisiteShipLevel": 1,
       "exclusiveQuests": [
         "engineerslicense",
         "illegalengineerslicense"
