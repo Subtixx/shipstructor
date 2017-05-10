@@ -7,6 +7,6 @@
     }
   },
 
-  "blockKey" : "blockKey.config:blockKey",
+  "blockKey" : "apexblockKey.config:blockKey",
   "blockImage" : "shipstructorT9apex.png"
 }
