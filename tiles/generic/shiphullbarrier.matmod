@@ -3,7 +3,7 @@
   "modName" : "shiphullbarrier",
   "description" : "Someone's been creative, are you making a ship perhaps?.",
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
-  "health" : -1,
+  "health" : 998,
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
