@@ -9,5 +9,11 @@
     "op": "replace",
     "path": "/orientations/0/collision",
     "value": "platform"
+  },
+
+  {
+    "op": "add",
+    "path": "/orientations/0/renderLayer",
+    "value": "Object-5"
   }
 ]
