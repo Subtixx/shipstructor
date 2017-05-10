@@ -23,6 +23,11 @@
   },
 
   {
+    "op": "remove",
+    "path": "/orientations/0/spaceScan"
+  },
+
+  {
     "op": "add",
     "path": "/health",
     "value": 1000

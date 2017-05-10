@@ -24,8 +24,7 @@
   "orientations" : [
 	{
 	  "dualImage" : "apexshiptether.png:<color>.<key>",
-	  "imagePosition" : [-16, 0],
-          "spaceScan" : 0.1,
+	  "imagePosition" : [-13, 0],
 	  "renderLayer" : "Object-5"
 	}
   ],
