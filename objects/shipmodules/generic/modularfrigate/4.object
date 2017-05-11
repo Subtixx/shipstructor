@@ -23,7 +23,7 @@
       "imageLayers" : [ { "image" : "4.png:<color>" } ],
       "renderLayer" : "Object-5",
 
-      "imagePosition" : [-32, -155],
+      "imagePosition" : [-32, -154],
       "frames" : 1,
       "animationCycle" : 1.0
 	}
