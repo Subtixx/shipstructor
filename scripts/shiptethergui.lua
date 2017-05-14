@@ -16,13 +16,7 @@ The Ship tether will work as follows (planed not implemented):
 
 -- on button press check if the item is a valid ship pod (read a value in the item)
 function shipthetherGUI()
--- If not a ship pod give player the invalid item back
--- logs item params i think
-    local items = world.containerItems(entity.id())
-    for k, v in pairs(items) do
-        world.logInfo("Item: %s", v)
-    end
-
+	world.sendEntityMessage(pane.sourceEntity(), "checkController")
 
 -- If a ship pod then trigger new function
 end
