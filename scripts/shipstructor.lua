@@ -1,7 +1,13 @@
+--- Object init event.
+-- Gets executed when this object is placed.
+-- @param virtual if this is a virtual call?
 function init(args)
 	object.setInteractive(true)
 end
 
+--- Object on interaction event.
+-- Gets executed when a player interacts (Presses E) on the object.
+-- @return table 1 = the type, 2 = the interaction config
 function onInteraction(args)
 	if (not readerBusy()) then
 		-- Options for read process
@@ -23,6 +29,9 @@ function onInteraction(args)
 	end
 end
 
+--- Object update event
+-- Gets executed when this object updates.
+-- @param dt delta time, time is specified in *.object as scriptDelta (60 = 1 second)
 function update(dt)
 	-- this needs to be polled until done
 	if (self.miab == nil) then return end -- not initialized
