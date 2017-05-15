@@ -47,6 +47,8 @@ function checkController()
 	if not validatePod(podItem) then return end -- << Don't do anything with the 
 
 	local itemConf = root.itemConfig(podItem)
+
+	-- For the scanner to be able to "scan" miab_breakStuff has to be FALSE!
 	object.setConfigParameter("miab_breakStuff", itemConf["config"]["miab_breakStuff"])
 	object.setConfigParameter("miab_clearOnly", itemConf["config"]["miab_clearOnly"])
 	object.setConfigParameter("miab_dumpJSON", itemConf["config"]["miab_dumpJSON"])
@@ -92,10 +94,14 @@ function update(dt)
 			if (self.miab.breakStuff) then destroyBlocks() end
 			-- spawnPrinterItem()
 			produceJSONOutput()
-			if (not self.miab.breakStuff) then object.smash() end
+			---if (not self.miab.breakStuff) then object.smash() end
 			self.miab.readingStage = READSUCCESS
 		elseif (self.miab.readingStage == READSUCCESS) then
+			-- TODO: Check for self.
+
 			self.miab = nil -- reset scanner state
+
+			-- \/ This can be used to spawn an item with blueprint :D!
 			self.scaned_configTable = blueprint.toConfigTable() -- save scanned table
 			blueprint.Init({0, 0}) -- reset blueprint
 			
@@ -131,6 +137,7 @@ function update(dt)
 				donePrinting = true
 			end
 		else
+			blueprint.Init({0, 0})
 			self.miab = nil
 			--object.smash()
 		end	
