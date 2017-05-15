@@ -13,14 +13,18 @@ The Ship tether will work as follows (planed not implemented):
 
 --]]
 
+--- Initialization for the UI
+function init()
+end
 
 -- on button press check if the item is a valid ship pod (read a value in the item)
-function shipthetherGUI()
-	world.sendEntityMessage(pane.sourceEntity(), "checkController")
-
--- If a ship pod then trigger new function
+--- Button press event
+function btnReplaceShip()
+	-- Send message to our container object to check Controller
+	world.sendEntityMessage(pane.containerEntityId(), "checkController")
+	-- If a ship pod then trigger new function
 end
 
 function shiptetherCinematic()
--- Play a Cinematic for a certain amount of time based on "cinematicLength" stored in item file
+	-- Play a Cinematic for a certain amount of time based on "cinematicLength" stored in item file
 end
