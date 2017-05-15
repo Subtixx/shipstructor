@@ -1,5 +1,5 @@
 {
-  "objectName" : "apexshiptether",
+  "objectName" : "novakidshiptether",
   "colonyTags" : ["storage"],
   "rarity" : "Common",
   "objectType" : "container",
@@ -10,7 +10,7 @@
   "health" : 1000,
 
   "description" : "HAZARD WARNING: If you spawned this in via admin mode you may not be able to break it.",
-  "shortdescription" : "Apex Ship Tether",
+  "shortdescription" : "Novakid Ship Tether",
 
   "apexDescription" : "A hi-tech ship tether. It looks you can swap your ship here.",
   "avianDescription" : "A Ship tether, looks like it stores star ships.",
@@ -20,10 +20,10 @@
   "hylotlDescription" : "There is amazing technology built into the ship itself.",
   "novakidDescription" : "Ooh, I bet you can get a train here.",
 
-  "inventoryIcon" : "apexshiptether_icon.png",
+  "inventoryIcon" : "novakidshiptether_icon.png",
   "orientations" : [
 	{
-	  "dualImage" : "apexshiptether.png:<color>.<key>",
+	  "dualImage" : "novekidshiptether.png:<color>.<key>",
 	  "imagePosition" : [-13, 0],
 	  "renderLayer" : "Object-5"
 	}
