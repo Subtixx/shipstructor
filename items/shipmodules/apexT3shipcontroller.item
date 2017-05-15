@@ -1,0 +1,13 @@
+{
+  "itemName" : "apexT3shipcontroller",
+  "price" : 25000,
+  "rarity" : "Rare",
+  "category" : "ShipController",
+  "description" : "An Apex Star cruiser which has been stord in a Nanite controller, can only be used with the ship tether.",
+  "shortdescription" : "Apex T3 Ship Controller",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["shipcontroller"],
+
+  "inventoryIcon" : "apexcontroller.png"
+}

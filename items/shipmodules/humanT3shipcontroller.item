@@ -1,0 +1,13 @@
+{
+  "itemName" : "humanT3shipcontroller",
+  "price" : 25000,
+  "rarity" : "Rare",
+  "category" : "ShipController",
+  "description" : "An Human Star cruiser which has been stord in a Nanite controller, can only be used with the ship tether.",
+  "shortdescription" : "Human T3 Ship Controller",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["shipcontroller"],
+
+  "inventoryIcon" : "humancontroller.png"
+}
